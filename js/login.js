@@ -5,6 +5,8 @@ $(document).ready(function() {
 
   var $loginGoogle = $('#google-login');
 
+  
+  $('#continue').css('display', 'none');
 
   // Login con Google
   var providerGoogle = new firebase.auth.GoogleAuthProvider();
@@ -20,10 +22,21 @@ $(document).ready(function() {
 
       // Redireccionando al perfil
       alert('Registro exitoso');
-     // window.location.href = 'home.html';
+
+      $loginGoogle.css('display', 'none');
+      
+      $('#continue').css('display', 'inline-block');
+  
+      // window.location.href = 'home.html';
     });
   });
 
+  $('#continue').click(function() {
+    // Redireccionando al perfil
+
+    window.location.href = 'home.html';
+  });
+ 
 
   function saveData(user) {
     console.log(user);
