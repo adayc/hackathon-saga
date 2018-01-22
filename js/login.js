@@ -13,13 +13,14 @@ $(document).ready(function() {
     firebase.auth().signInWithPopup(providerGoogle).then(function(result) {
       console.log(result.user);
       window.localStorage.setItem('storageUID', result.user.uid);
+      saveData(result.user);
       // Guardando el UID en el localstorage
       var UID = window.localStorage.getItem('storageUID');
       console.log(UID);
 
       // Redireccionando al perfil
       alert('Registro exitoso');
-      window.location.href = 'home.html';
+     // window.location.href = 'home.html';
     });
   });
 
