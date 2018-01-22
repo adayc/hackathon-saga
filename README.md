@@ -24,7 +24,7 @@ Link de la encuesta: https://goo.gl/forms/QY0ks7m6yTI218Jk1
 Luego de los resultados de la encuesta pudimos concluir que la aplicación será basada en aquellas películas que formen parte de una saga.
 Adicional a eso debemos tener en cuenta las recomendaciones que nos dieron los usuarios para nuestra aplicación.
 
-#### Recomendaciones
+#### Recomendaciones basadas en las encuestas
 
 ![resultados de la encuesta](assets/images/recomendaciones.jpg)
 
@@ -98,7 +98,10 @@ https://marvelapp.com/2b563c2
 El primer día luego de escuchar las indicaciones del producto nos planificamos de la siguiente manera:
 ![primer día](assets/images/primerdia.jpg)
 ![primer día](assets/images/plan-semanal.jpg)
+
 #### Flujo de la aplicación 
+
+
 
 ## Herramientas utilizadas
 
