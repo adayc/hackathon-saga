@@ -100,6 +100,14 @@ El primer día luego de escuchar las indicaciones del producto nos planificamos 
 ![primer día](assets/images/plan-semanal.jpg)
 
 #### Flujo de la aplicación 
+1.	Todo inicia con una vista splash de cinco segundos para llamar la atención del usuario.
+2.	Después pasamos al login, para el cual usamos firebase con el fin de guardar los datos de la cuenta de google de nuestros usuarios, al concluir el login nos sale un aviso que nos indica que nos hemos registrado exitosamente.
+3.	Posteriormente pasamos al buscador de películas de nuestra aplicación. Este nos permite encontrar las sagas que queramos. Una vez encontrarlas se nos mostraran los resultados con la imagen, el nombre de la película dentro de un botón el cual nos mostrará el título completo, año de esta y un botón con la opción de “Guardar a Colección”.
+4.	Cuando deseemos entrar a nuestro perfil, entraremos a éste a través del menú hamburguesa situado en el lado izquierdo del navegador.
+5.	Al entrar en nuestro perfil, vemos que nuestra información tal como nombre de usuario, imagen de perfil han sido extraídos de google.
+6.	Una vez en nuestro perfil, podemos elegir nuestros géneros cinematográficos predilectos, los cuales podrán ser guardados y almacenados. De nuevo, en nuestro perfil tenemos un botón con la opción “Busca tu saga” para volver al buscador.
+7.	En “Recomendaciones se encontrarán estrenos de sagas y recomendaciones según nuestros géneros favoritos.
+
 
 
 
